@@ -1,0 +1,35 @@
+body{
+    background-color: yellowgreen;
+    color: white;
+}
+.spaced{
+    line-height: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+}
+.title{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+}
+.lead{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+}
+.left{
+    display: block;
+    float: left;
+    width: 43%;
+    height: 100%;
+    padding: 20px 40px;
+  }
+.right {
+    display: block;
+    float: right;
+    width: 43%;
+    height: 100%;
+    padding: 20px 40px;}
+p:hover {
+        font-size: 18pt;
+        color:rgb(58, 134, 28);
+        background-color: rgba(255, 255, 255, 0.671);
+        border: transparent 1pt rgb(255, 255, 255);
