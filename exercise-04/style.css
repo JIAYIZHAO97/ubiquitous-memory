@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(255, 196, 0);
+    color: white;
+}
+.container {
+    display: flex;
+    margin: 25px;
+    justify-content: space-between;
+}
+.spaced{
+    line-height: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    position: relative;
+    transition: all 500ms ease;
+    text-align: left;
+}
+.title{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    color: #f14e25;
+}
+.lead{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 32px;
+    color: #f14e25;
+}
+.left{
+    width: 43%;
+    height: 100%;
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.39);
+    border: 5px solid rgb(21, 122, 8);
+  }
+.right {
+    width: 43%;
+    height: 100%;
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.39);
+    border: 5px solid rgb(21, 122, 8);}
+.pullquote{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+    color: #f14e25;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.top{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    color: #f14e25;
+}
+p:hover {
+        font-size: 24px;
+        color:rgb(21, 122, 8);
+        background-color: rgba(255, 255, 255, 0.671);
+        border: #f14e25 solid 2px;
+        border-radius: 5px;
